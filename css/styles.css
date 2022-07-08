@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+ }
+ 
+ul li{
+color:white;
+list-style:none;
+display:inline-block;
+font-weight:bold;
+padding:20px;
+}
+ul li:hover {
+    cursor:pointer;
+
+}
+header{
+    background: #541554;
+    height: 60vh;
+}
+
+.btn{
+    font-weight: bolder;
+    border-radius:2px 2px 3px;
+    padding:10px; 
+}
+.sales{
+    border:1px solid white;
+    background: transparent;
+    color:white;
+}
+.container{
+    width:80%;
+    margin:0 auto;
+
+
+}
+.free{
+    border:1px solid white;
+    background: white;
+    color:purple;
+}
+
+.ceo{
+    float:left;
+}
+.md{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+
+.left{
+    float: left;
+    margin: 20px 0;
+    color: white;
+    width:50%;
+
+}
+.orange-text{color:orange;
+    font:100;
+    
+    
+}
+
+.left h1{
+    font-size:70px
+}
+
+.left p{
+    margin:20px 0;
+    font-size:30px;
+}
+
+.right{
+    float:right
+}
+
+.left{
+    float:left 
+    
+}
+.logos{
+    text-align: center;
+}
+
+.logos img{
+    padding:0 20px;
+}
+.trusted{
+    text-align: center;
+    padding-bottom: 30px ;
+    padding-top: 30px;
+}
+.rightaway{
+    float:right;
+    margin:20px 0;
+    color:black;
+    width:50%;
+}
