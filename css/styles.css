@@ -17,9 +17,11 @@ ul li:hover {
 }
 header{
     background: #541554;
-    height: 60vh;
-}
 
+}
+.hero{
+    color:white;
+}
 .btn{
     font-weight: bolder;
     border-radius:2px 2px 3px;
@@ -38,7 +40,7 @@ header{
 }
 .free{
     border:1px solid white;
-    background: blue;
+    background: white;
     color:purple;
 }
 
@@ -52,13 +54,7 @@ header{
     clear:both;
 }
 
-.left{
-    float: left;
-    margin: 20px 0;
-    color: white;
-    width:50%;
 
-}
 .orange-text{color:orange;
     font:100;
     
@@ -66,7 +62,7 @@ header{
 }
 
 .left h1{
-    font-size:70px
+    font-size:90px
 }
 
 .left p{
@@ -75,15 +71,19 @@ header{
 }
 
 .right{
-    float:right
+   margin-top: 20px; 
+   float:right;
+    width: 50%;
 }
 
 .left{
-    float:left 
+    float:left;
+    width: 50%;
     
 }
 .logos{
     text-align: center;
+
 }
 
 .logos img{
@@ -93,10 +93,22 @@ header{
     text-align: center;
     padding-bottom: 30px ;
     padding-top: 30px;
+    
 }
-.rightaway{
-    float:right;
-    margin:20px 0;
-    color:black;
-    width:50%;
+.h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.heading{
+    font-size: xx-large;
+}
+.logos{
+    margin-bottom: 80px;
+}
+.mark{
+    float: right;
+
+}
+.words{
+    float: left;
 }
